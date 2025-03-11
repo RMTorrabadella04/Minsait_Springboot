@@ -7,7 +7,7 @@ import java.util.Date;
 public class Ejercicio {
     private String titulo;
     private String descripcion;
-    private String textoLargo;
+    private String longText;
     private String email;
 
     @JsonFormat(pattern = "yyyy-MM-dd")
@@ -24,7 +24,7 @@ public class Ejercicio {
     }
 
     public String getLongText() {
-        return textoLargo;
+        return longText;
     }
 
     public String getEmail() {
@@ -49,7 +49,7 @@ public class Ejercicio {
     }
 
     public void setLongText(String longText) {
-        this.textoLargo = longText;
+        this.longText = longText;
     }
 
     public void setEmail(String email) {
